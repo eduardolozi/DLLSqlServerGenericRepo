@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Infra</RootNamespace>
+        <PackageId>SqlServerGenericRepository</PackageId>
+        <Version>1.0.1</Version>
+        <Authors>EduardoLozano</Authors>
+        <Company>EduardoLozano</Company>
+        <Description>A SQL Server repository that works for any class. Only the CRUD methods.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.0-preview1.24240.8" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    </ItemGroup>
+
+</Project>
